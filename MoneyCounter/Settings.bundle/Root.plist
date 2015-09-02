@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Child&apos;s Information</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>Roman</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>Key</key>
+			<string>childName</string>
+		</dict>
+		<dict>
+			<key>Titles</key>
+			<array>
+				<string>Under 5</string>
+				<string>5 - 7</string>
+				<string>8 - 11</string>
+				<string>12 - 14</string>
+				<string>15 or older</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>u5</string>
+				<string>a57</string>
+				<string>a811</string>
+				<string>a1214</string>
+				<string>a15plus</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Age</string>
+			<key>Key</key>
+			<string>childAge</string>
+			<key>DefaultValue</key>
+			<string>a57</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Allow Social Media</string>
+			<key>Key</key>
+			<string>socialEnabled</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Debug</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Reset</string>
+			<key>Key</key>
+			<string>settingsReset</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
